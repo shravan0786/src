@@ -13,6 +13,12 @@ public class HelloWorld {
 		Button b4=new Button("N");
 		Button b5=new Button("C");
 		f.add(b1,BorderLayout.EAST);
-System.out.println("Hai Hello World");
+		f.add(b2,BorderLayout.WEST);
+		f.add(b3,BorderLayout.SOUTH);
+		f.add(b4,BorderLayout.NORTH);
+		f.add(b5,BorderLayout.CENTER);
+		
+		
+		
 }
 }
